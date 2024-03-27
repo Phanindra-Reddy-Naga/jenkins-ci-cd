@@ -6,7 +6,7 @@ pipeline{
         maven "maven"
     }
       environment{
-                APP_NAME = "spring-docker-cicd"
+                APP_NAME = "jenkins-ci-cd"
                 RELEASE = "1.0.0"
                 DOCKER_USER = "nagakolli"
                 IMAGE_NAME = "${DOCKER_USER}"+"/"+"${APP_NAME}"
