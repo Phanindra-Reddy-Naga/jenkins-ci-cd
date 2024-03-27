@@ -6,7 +6,7 @@ pipeline{
         maven "maven"
     }
       environment{
-                APP_NAME = "jenkins-ci-cd"
+                APP_NAME = "jenkinsCiCd"
                 RELEASE = "1.0.0"
                 DOCKER_USER = "nagakolli"
                 IMAGE_NAME = "${DOCKER_USER}"+"/"+"${APP_NAME}"
