@@ -42,7 +42,7 @@ pipeline{
                 bat 'docker login -u nagakolli -p phAnindr@1679'
                 //sh 'docker tag spring-cicd:1.0 nagakolli/spring-cicd:1.0'
                 //bat 'docker push ${IMAGE_NAME}:${IMAGE_TAG}'
-                bat 'docker push nagakolli/spring-docker-cicd:1.0.0-${BUILD_NUMBER}'
+                bat 'docker push nagakolli/spring-docker-cicd:1.0.0'
                 //}
            }
 
